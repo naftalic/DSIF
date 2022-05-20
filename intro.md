@@ -23,3 +23,10 @@ In addtion, theses are a few online Coursera courses that are related to the top
 * [Operations Research (2): Optimization Algorithms](https://www.coursera.org/learn/operations-research-algorithms)
 * [Operations Research (3): Theory](https://www.coursera.org/learn/operations-research-theory)
 :::
+
+<!---
+:::{note}
+Here is a note!
+:::
+
+And here is a code block:
