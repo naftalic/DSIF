@@ -11,6 +11,9 @@ y=a+bx
 \end{align}
 $$
 
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
 :::{note}
 For reference material on the topic, I strongly recommend reading:
 * [An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani](https://www.statlearning.com/)
