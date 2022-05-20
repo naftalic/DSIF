@@ -7,11 +7,11 @@ Data science is a concept of unifying statistics, data analysis, informatics, an
 
 :::{note}
 For reference material on the topic, I strongly recommend reading:
-* [An Introduction to Statistical Learning](https://www.statlearning.com/)
-* [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://hastie.su.domains/ElemStatLearn/)
-* [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
-* [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
-* [Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas, Robert Freund, ISBN-13: 978-0975914601](https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X)
+* [An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani](https://www.statlearning.com/)
+* [The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman](https://hastie.su.domains/ElemStatLearn/)
+* [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
+* [Convex Optimization by Stephen Boyd and Lieven Vandenberghe](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+* [Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas and Robert Freund](https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X)
 
 In addtion, theses are a few online Coursera courses that are related to the topic and that I fully recommend:
 * [Introduction to Portfolio Construction and Analysis with Python](https://www.coursera.org/learn/introduction-portfolio-construction-python?specialization=investment-management-python-machine-learning)
