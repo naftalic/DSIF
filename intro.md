@@ -1,7 +1,27 @@
 # Data Science in Finance (DSIF) with Python
 
-Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from noisy, structured, and unstructured data and apply knowledge and actionable insights from data across a broad range of application domains.
-Data science is a concept of unifying statistics, data analysis, informatics, and related methods to understand and analyze actual phenomena with data. It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, information science, and domain knowledge. However, data science is different from computer science and information science. A data scientist creates programming code and combines it with statistical knowledge to extract insights from data.
+* Intro to DS and the various application within the finances
+
+Main topics:
+
+* Fundamentals and Datasets
+* Data cleaning
+* Sample Statistics
+* Linear models
+* Optimization
+* Portfolio construction
+  * Factor modeling
+  * Index tracking
+* NLP	
+* Data scraping
+* Sentiment analysis
+* Topic modeling 
+* Feature engineering
+* MLOps
+* Classification models
+* Regression models
+* Time Series Forecasting
+* Descision Analaysis
 
 $$
 \begin{align}
