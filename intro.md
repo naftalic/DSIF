@@ -3,30 +3,29 @@
 * Intro to DS and the various application within the finances
 
 Main topics:
-
-* Bullet list
-    * Nested bullet          
-        * Sub-nested bullet etc      
-    * Bullet list item 2
           
 * Fundamentals 
-  * [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
-* Datasets
-* Data cleaning
+    * [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
+* Probability and Statistics
+    * [Think Stats, 2e by Allen B. Downey](https://greenteapress.com/wp/think-stats-2e/)
 * Sample Statistics
-* Linear models
+    * [An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani](https://www.statlearning.com/) 
+* Data Science
+    * [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://github.com/ageron/handson-ml2) 
+    * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman](https://hastie.su.domains/ElemStatLearn/)
+* ML in Finance
+    * [Machine Learning for Algorithmic Trading, 2nd Edition, by Stefan Jansen](https://www.amazon.com/Machine-Learning-Algorithmic-Trading-alternative/dp/1839217715) and coressponding [GitHub page](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition)
 * Optimization
+* NLP
 * Portfolio construction
-  * Factor modeling
-  * Index tracking
+
+
 * NLP	
+* 
 * Data scraping
-* Sentiment analysis
-* Topic modeling 
-* Feature engineering
+
 * MLOps
-* Classification models
-* Regression models
+
 * Time Series Forecasting
 * Descision Analaysis
 
@@ -41,12 +40,10 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 :::{note}
 For reference material on the topic, I strongly recommend reading:
-* [Machine Learning for Algorithmic Trading, 2nd Edition, by Stefan Jansen](https://www.amazon.com/Machine-Learning-Algorithmic-Trading-alternative/dp/1839217715) and coressponding [GitHub page](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition)
-* [Python for Finance, 2nd edition by Yves Hilpischand](https://www.amazon.com/Python-Finance-Mastering-Data-Driven/dp/1492024333/) and coressponding [GitHub page](https://github.com/yhilpisch/py4fi2nd)
-* [An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani](https://www.statlearning.com/)
+
+
 * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman](https://hastie.su.domains/ElemStatLearn/)
-* [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
-* [Convex Optimization by Stephen Boyd and Lieven Vandenberghe](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+
 * [Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas and Robert Freund](https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X)
 
 In addtion, theses are a few online Coursera courses that are related to the topic and that I fully recommend:
