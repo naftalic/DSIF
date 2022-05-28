@@ -4,8 +4,13 @@
 
 Main topics:
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+          
 * Fundamentals 
- * [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
+  * [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
 * Datasets
 * Data cleaning
 * Sample Statistics
