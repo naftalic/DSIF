@@ -4,7 +4,9 @@
 
 Main topics:
 
-* Fundamentals and Datasets
+* Fundamentals 
+** [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
+* Datasets
 * Data cleaning
 * Sample Statistics
 * Linear models
