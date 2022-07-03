@@ -38,6 +38,33 @@ $$
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
+html:
+          <div>
+              <html lang="en">
+              <head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+                <title>REPL</title>
+
+                <link rel="icon" type="image/png" href="favicon.png" />
+                <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+                <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+              </head>
+
+              <body>
+                Hello world! <br>
+                This is the current date and time, as computed by Python:
+                <py-script>
+              from datetime import datetime
+              now = datetime.now()
+              now.strftime("%m/%d/%Y, %H:%M:%S")
+                </py-script>
+              </body>
+              </html>
+          </div>
+        
+        
 :::{note}
 For reference material on the topic, I strongly recommend reading:
 
