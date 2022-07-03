@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Notes on Data Science in Finance (DSIF) with Python &#8212; My sample book</title>
+    <title>Notes on Data Science in Finance (DSIF) with Python &#8212; Data Science in Finance</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -48,6 +48,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Markdown Files" href="markdown.html" />
@@ -79,7 +81,7 @@ const thebe_selector_output = ".output, .cell_output"
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">My sample book</h1>
+      <h1 class="site-logo" id="site-title">Data Science in Finance</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -167,11 +169,11 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/naftalic/DSIF"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/naftalic/DSIF/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -212,18 +214,26 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="notes-on-data-science-in-finance-dsif-with-python">
 <h1>Notes on Data Science in Finance (DSIF) with Python<a class="headerlink" href="#notes-on-data-science-in-finance-dsif-with-python" title="Permalink to this headline">¶</a></h1>
-<p>Welcome to a short introductory material on data-driven finance and applications using <em>Python</em>.</p>
-<p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.</p>
-<p>Data science is a concept to unify statistics, data analysis, informatics, and their related methods in order to understand and analyse actual phenomena with data. It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, information science, and domain knowledge. However, data science is different from computer science and information science. A data scientist is someone who creates programming code and combines it with statistical knowledge to create insights from data.</p>
+<p>Welcome to a short introductory material on data-driven finance and applications using Python.</p>
+<p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from noisy, structured, and unstructured data and apply knowledge and actionable insights from data across a broad range of application domains.
+Data science is a concept of unifying statistics, data analysis, informatics, and related methods to understand and analyze actual phenomena with data. It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, information science, and domain knowledge. However, data science is different from computer science and information science. A data scientist creates programming code and combines it with statistical knowledge to extract insights from data.</p>
+<div class="math notranslate nohighlight">
+\[
+\begin{align}
+y=a+bx
+\end{align}
+\]</div>
+<p>When <span class="math notranslate nohighlight">\(a \ne 0\)</span>, there are two solutions to <span class="math notranslate nohighlight">\((ax^2 + bx + c = 0)\)</span> and they are
+$<span class="math notranslate nohighlight">\( x = {-b \pm \sqrt{b^2-4ac} \over 2a} \)</span>$</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For reference material on the topic, I strongly recommend reading:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></p></li>
-<li><p><a class="reference external" href="https://hastie.su.domains/ElemStatLearn/">The Elements of Statistical Learning: Data Mining, Inference, and Prediction</a></p></li>
-<li><p><a class="reference external" href="https://wesmckinney.com/book/">Python for Data Analysis, 3E</a></p></li>
-<li><p><a class="reference external" href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization</a></p></li>
-<li><p><a class="reference external" href="https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X">Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas, Robert Freund, ISBN-13: 978-0975914601</a></p></li>
+<li><p><a class="reference external" href="https://www.statlearning.com/">An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani</a></p></li>
+<li><p><a class="reference external" href="https://hastie.su.domains/ElemStatLearn/">The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman</a></p></li>
+<li><p><a class="reference external" href="https://wesmckinney.com/book/">Python for Data Analysis by Wes McKinney</a></p></li>
+<li><p><a class="reference external" href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization by Stephen Boyd and Lieven Vandenberghe</a></p></li>
+<li><p><a class="reference external" href="https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X">Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas and Robert Freund</a></p></li>
 </ul>
 <p>In addtion, theses are a few online Coursera courses that are related to the topic and that I fully recommend:</p>
 <ul class="simple">
@@ -285,7 +295,7 @@ And here is a code block:
     <footer class="footer">
   <p>
     
-      By The Jupyter Book Community<br/>
+      By Naftali Cohen<br/>
     
         &copy; Copyright 2021.<br/>
   </p>
