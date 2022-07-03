@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Notes on Data Science in Finance (DSIF) with Python &#8212; Data Science in Finance</title>
+    <title>Data Science in Finance (DSIF) with Python &#8212; Data Science in Finance</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -92,7 +92,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
  <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Notes on Data Science in Finance (DSIF) with Python
+   Data Science in Finance (DSIF) with Python
   </a>
  </li>
 </ul>
@@ -118,7 +118,31 @@ const thebe_selector_output = ".output, .cell_output"
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+  <div>
+      <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <title>REPL</title>
+
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      </head>
+
+      <body>
+        Hello world! <br>
+        This is the current date and time, as computed by Python:
+        <py-script>
+      from datetime import datetime
+      now = datetime.now()
+      now.strftime("%m/%d/%Y, %H:%M:%S")
+        </py-script>
+      </body>
+      </html>
+</div>
+
 </div>
 
 </div>
@@ -164,22 +188,6 @@ const thebe_selector_output = ".output, .cell_output"
 
             <!-- Source interaction buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/naftalic/DSIF"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/naftalic/DSIF/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -201,7 +209,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Notes on Data Science in Finance (DSIF) with Python</h1>
+                <h1>Data Science in Finance (DSIF) with Python</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -212,11 +220,49 @@ const thebe_selector_output = ".output, .cell_output"
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="notes-on-data-science-in-finance-dsif-with-python">
-<h1>Notes on Data Science in Finance (DSIF) with Python<a class="headerlink" href="#notes-on-data-science-in-finance-dsif-with-python" title="Permalink to this headline">¶</a></h1>
-<p>Welcome to a short introductory material on data-driven finance and applications using Python.</p>
-<p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from noisy, structured, and unstructured data and apply knowledge and actionable insights from data across a broad range of application domains.
-Data science is a concept of unifying statistics, data analysis, informatics, and related methods to understand and analyze actual phenomena with data. It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, information science, and domain knowledge. However, data science is different from computer science and information science. A data scientist creates programming code and combines it with statistical knowledge to extract insights from data.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="data-science-in-finance-dsif-with-python">
+<h1>Data Science in Finance (DSIF) with Python<a class="headerlink" href="#data-science-in-finance-dsif-with-python" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Intro to DS and the various application within the finances</p></li>
+</ul>
+<p>Main topics:</p>
+<ul class="simple">
+<li><p>Fundamentals</p>
+<ul>
+<li><p><a class="reference external" href="https://wesmckinney.com/book/">Python for Data Analysis by Wes McKinney</a></p></li>
+</ul>
+</li>
+<li><p>Probability and Statistics</p>
+<ul>
+<li><p><a class="reference external" href="https://greenteapress.com/wp/think-stats-2e/">Think Stats, 2e by Allen B. Downey</a></p></li>
+</ul>
+</li>
+<li><p>Sample Statistics</p>
+<ul>
+<li><p><a class="reference external" href="https://www.statlearning.com/">An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani</a></p></li>
+</ul>
+</li>
+<li><p>Data Science</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/ageron/handson-ml2">Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow</a></p></li>
+<li><p><a class="reference external" href="https://hastie.su.domains/ElemStatLearn/">The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman</a></p></li>
+</ul>
+</li>
+<li><p>ML in Finance</p>
+<ul>
+<li><p><a class="reference external" href="https://www.amazon.com/Machine-Learning-Algorithmic-Trading-alternative/dp/1839217715">Machine Learning for Algorithmic Trading, 2nd Edition, by Stefan Jansen</a> and coressponding <a class="reference external" href="https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition">GitHub page</a></p></li>
+</ul>
+</li>
+<li><p>Optimization</p></li>
+<li><p>NLP</p></li>
+<li><p>Portfolio construction</p></li>
+<li><p>NLP</p></li>
+<li></li>
+<li><p>Data scraping</p></li>
+<li><p>MLOps</p></li>
+<li><p>Time Series Forecasting</p></li>
+<li><p>Descision Analaysis</p></li>
+</ul>
 <div class="math notranslate nohighlight">
 \[
 \begin{align}
@@ -229,10 +275,7 @@ $<span class="math notranslate nohighlight">\( x = {-b \pm \sqrt{b^2-4ac} \over 
 <p class="admonition-title">Note</p>
 <p>For reference material on the topic, I strongly recommend reading:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.statlearning.com/">An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani</a></p></li>
 <li><p><a class="reference external" href="https://hastie.su.domains/ElemStatLearn/">The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman</a></p></li>
-<li><p><a class="reference external" href="https://wesmckinney.com/book/">Python for Data Analysis by Wes McKinney</a></p></li>
-<li><p><a class="reference external" href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization by Stephen Boyd and Lieven Vandenberghe</a></p></li>
 <li><p><a class="reference external" href="https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X">Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas and Robert Freund</a></p></li>
 </ul>
 <p>In addtion, theses are a few online Coursera courses that are related to the topic and that I fully recommend:</p>

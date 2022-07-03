@@ -1,9 +1,33 @@
-# Notes on Data Science in Finance (DSIF) with Python
+# Data Science in Finance (DSIF) with Python
 
-Welcome to a short introductory material on data-driven finance and applications using Python.
+* Intro to DS and the various application within the finances
 
-Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from noisy, structured, and unstructured data and apply knowledge and actionable insights from data across a broad range of application domains.
-Data science is a concept of unifying statistics, data analysis, informatics, and related methods to understand and analyze actual phenomena with data. It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, information science, and domain knowledge. However, data science is different from computer science and information science. A data scientist creates programming code and combines it with statistical knowledge to extract insights from data.
+Main topics:
+          
+* Fundamentals 
+    * [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
+* Probability and Statistics
+    * [Think Stats, 2e by Allen B. Downey](https://greenteapress.com/wp/think-stats-2e/)
+* Sample Statistics
+    * [An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani](https://www.statlearning.com/) 
+* Data Science
+    * [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://github.com/ageron/handson-ml2) 
+    * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman](https://hastie.su.domains/ElemStatLearn/)
+* ML in Finance
+    * [Machine Learning for Algorithmic Trading, 2nd Edition, by Stefan Jansen](https://www.amazon.com/Machine-Learning-Algorithmic-Trading-alternative/dp/1839217715) and coressponding [GitHub page](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition)
+* Optimization
+* NLP
+* Portfolio construction
+
+
+* NLP	
+* 
+* Data scraping
+
+* MLOps
+
+* Time Series Forecasting
+* Descision Analaysis
 
 $$
 \begin{align}
@@ -16,10 +40,10 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 :::{note}
 For reference material on the topic, I strongly recommend reading:
-* [An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani](https://www.statlearning.com/)
+
+
 * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, and Jerome Friedman](https://hastie.su.domains/ElemStatLearn/)
-* [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)
-* [Convex Optimization by Stephen Boyd and Lieven Vandenberghe](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+
 * [Data, Models, and Decisions: The Fundamentals of Management Science, by Dimitris Bertsimas and Robert Freund](https://www.amazon.com/Data-Models-Decisions-Fundamentals-Management/dp/097591460X)
 
 In addtion, theses are a few online Coursera courses that are related to the topic and that I fully recommend:
