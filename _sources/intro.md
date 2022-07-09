@@ -38,16 +38,15 @@ $$
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-Hello world! <br>
-This is the current date and time, as computed by Python:
-<py-script>
-from datetime import datetime
-now = datetime.now()
-now.strftime("%m/%d/%Y, %H:%M:%S")
-</py-script>
-                
-        
-        
+html:
+  Hello world! <br>
+  This is the current date and time, as computed by Python:
+  <py-script>
+  from datetime import datetime
+  now = datetime.now()
+  now.strftime("%m/%d/%Y, %H:%M:%S")
+  </py-script>
+ 
 :::{note}
 For reference material on the topic, I strongly recommend reading:
 
