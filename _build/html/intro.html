@@ -263,32 +263,13 @@ y=a+bx
 \]</div>
 <p>When <span class="math notranslate nohighlight">\(a \ne 0\)</span>, there are two solutions to <span class="math notranslate nohighlight">\((ax^2 + bx + c = 0)\)</span> and they are
 $<span class="math notranslate nohighlight">\( x = {-b \pm \sqrt{b^2-4ac} \over 2a} \)</span>$</p>
-<p>html:
-<div>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" /></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>            &lt;title&gt;REPL&lt;/title&gt;
-
-            &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot; /&gt;
-            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://pyscript.net/alpha/pyscript.css&quot; /&gt;
-            &lt;script defer src=&quot;https://pyscript.net/alpha/pyscript.js&quot;&gt;&lt;/script&gt;
-          &lt;/head&gt;
-
-          &lt;body&gt;
-            Hello world! &lt;br&gt;
-            This is the current date and time, as computed by Python:
-            &lt;py-script&gt;
-          from datetime import datetime
-          now = datetime.now()
-          now.strftime(&quot;%m/%d/%Y, %H:%M:%S&quot;)
-            &lt;/py-script&gt;
-          &lt;/body&gt;
-          &lt;/html&gt;
-      &lt;/div&gt;
-</pre></div>
-</div>
+<p>Hello world! <br>
+This is the current date and time, as computed by Python:
+<py-script>
+from datetime import datetime
+now = datetime.now()
+now.strftime(“%m/%d/%Y, %H:%M:%S”)
+</py-script></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For reference material on the topic, I strongly recommend reading:</p>
