@@ -43,13 +43,21 @@
 # In[1]:
 
 
+import datetime
+now = datetime.datetime.now()
+print(now)
+
+
+# In[2]:
+
+
 from matplotlib import rcParams, cycler
 import matplotlib.pyplot as plt
 import numpy as np
 plt.ion()
 
 
-# In[ ]:
+# In[3]:
 
 
 # Fixing random state for reproducibility
